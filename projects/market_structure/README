@@ -1,0 +1,20 @@
+# Market Structure Analysis
+
+This project studies price structure behaviour in financial markets.
+
+Focus areas:
+- Liquidity sweeps
+- Break of Structure (BOS)
+- Trend vs consolidation regimes
+
+Methodology
+-----------
+Historical market data is analysed to identify structural break points
+and potential liquidity sweep events.
+
+Tools
+-----
+Python  
+Pandas  
+NumPy  
+Jupyter Notebook
