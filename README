@@ -1,0 +1,29 @@
+Quantitative Trading Research
+=============================
+
+Author: Olivier Veenemans
+
+Focus areas
+- Market structure analysis
+- Auction market theory
+- Volatility regimes
+- Algorithmic trading research
+
+Projects
+--------
+
+Market Structure Analysis
+Study of liquidity sweeps and break-of-structure events.
+
+Auction Market Backtesting
+Research into LVN (Low Volume Node) reactions.
+
+Volatility Regime Detection
+Identifying different volatility environments.
+
+Tools
+-----
+Python
+Pandas
+NumPy
+Jupyter Notebook
