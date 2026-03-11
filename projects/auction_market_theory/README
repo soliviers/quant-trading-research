@@ -1,0 +1,77 @@
+# Auction Context Engine Research
+
+This project explores whether Low Volume Node (LVN) behaviour is better used as a standalone trading strategy or as an auction-context layer that improves other trading models.
+
+## Research question
+
+Can LVN interactions be deployed as a primary systematic strategy, or are they more useful as contextual signals for filtering, alerting and trade-quality scoring?
+
+## Motivation
+
+Volume-profile structure contains information about where the market was willing to transact efficiently and where it was not. Low Volume Nodes (LVNs) may act as rejection zones or transition areas, while accepted high-volume regions often behave as magnets.
+
+The goal of this research is not just to test an LVN strategy in isolation, but to understand what auction behaviour is transferable to broader trading systems.
+
+## Core findings
+
+The research suggests that LVN behaviour is more valuable as a **context/filter/alert layer** than as a standalone deployment candidate.
+
+### Why
+
+- trade frequency is relatively low for standalone production deployment
+- the strongest signals appear when LVN interaction is combined with broader auction/value context
+- accepted value matters more than cosmetic candle rejection
+- high-volume references such as POC/HVN behave as useful magnets and target zones
+
+## Key market-structure insights
+
+### 1. Value acceptance before reversal matters
+Reversal quality appears stronger when price first shows evidence of acceptance/value formation, rather than relying on raw wick rejection alone.
+
+### 2. Context beats candle cosmetics
+The market seems to reward stronger auction context more than visually dramatic rejection candles.
+
+### 3. Magnet logic is meaningful
+After rejection from inefficient price, markets often rotate back toward accepted liquidity or volume centres such as POC/HVN.
+
+### 4. Low-volume zones are actionable
+LVNs appear to behave as rejection/transition areas rather than just decorative profile features.
+
+### 5. A weak standalone strategy can still produce valuable features
+Even if an LVN setup is too sparse for direct deployment, it can still improve:
+- BOS filtering
+- liquidity sweep scoring
+- Telegram alert ranking
+- discretionary dashboards
+
+## Practical use case
+
+The best use of this research is likely an **Auction Context Engine** that outputs reusable features such as:
+
+- distance to session POC
+- inside/outside value
+- value acceptance score
+- nearest LVN distance
+- nearest HVN distance
+- rejection-at-LVN flag
+- rejection-outside-value flag
+- magnet alignment flag
+
+These features can then be used by other models instead of forcing LVN logic into a mediocre standalone execution engine.
+
+## Repository outputs
+
+- research notebook
+- summary chart(s)
+- sample data where possible
+- written conclusions for transfer into other trading systems
+
+## Current framing
+
+This project should be interpreted as:
+
+**market structure intelligence research**
+
+not:
+
+**a fully deployment-ready standalone strategy**
