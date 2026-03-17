@@ -1,9 +1,14 @@
 Quantitative Trading Research
-=============================
+============================
 
 Author: Olivier Veenemans
 
-Focus areas
+## Workflow
+
+See [BACKTEST_WORKFLOW.md](BACKTEST_WORKFLOW.md) for the standardized research and publishing process.
+
+## Focus areas
+
 - Market structure analysis
 - Auction market theory
 - Volatility regimes
