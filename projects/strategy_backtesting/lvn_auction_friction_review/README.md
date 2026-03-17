@@ -48,6 +48,17 @@ These insights are now being integrated into **Telegram-based signal systems** a
 
 ---
 
+## Key Visuals
+
+### Friction Sensitivity — Profit Factor
+![Friction PF](figures/friction_pf.png)
+
+### Friction Sensitivity — Average PnL
+![Friction Avg PnL](figures/friction_avg_pnl.png)
+
+### Candidate Comparison Under Friction
+![Candidate PF](figures/candidate_pf.png)
+
 ## Status
 
 **Completed (Not production-ready)**
